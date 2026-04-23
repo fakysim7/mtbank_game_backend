@@ -8,11 +8,6 @@ User = get_user_model()
 
 
 class PlayerProfile(models.Model):
-    """
-    Профиль игрока — расширяет стандартного User.
-    score и rank обновляются на месте, новые записи не создаются.
-    """
-
     user = models.OneToOneField(
         User,
         on_delete=models.CASCADE,
@@ -34,10 +29,6 @@ class PlayerProfile(models.Model):
         return f"#{self.rank} {self.user.username} — {self.score} очков"
 
     def update_score(self, new_score: int) -> bool:
-        """
-        Обновить score только если новый результат лучше предыдущего.
-        Возвращает True если счёт обновлён, False если нет.
-        """
         if new_score <= self.score:
             return False
 
@@ -48,10 +39,6 @@ class PlayerProfile(models.Model):
 
     @classmethod
     def recalculate_ranks(cls) -> None:
-        """
-        Пересчитать rank для всех игроков на основе текущего score.
-        Использует оконную функцию RANK() — один запрос к БД.
-        """
         ranked = (
             cls.objects.annotate(
                 new_rank=Window(
@@ -72,8 +59,6 @@ class PlayerProfile(models.Model):
 
 
 class Company(models.Model):
-    """Таблица компаний"""
-
     name = models.CharField(max_length=255, verbose_name="Название компании")
     logo = models.ImageField(
         upload_to="companies/logos/",
@@ -94,8 +79,6 @@ class Company(models.Model):
 
 
 class Offer(models.Model):
-    """Предложения/бонусы — многие к одной компании"""
-
     class OfferType(models.TextChoices):
         DISCOUNT = "discount", "Скидка"
         CASHBACK = "cashback", "Кэшбэк"

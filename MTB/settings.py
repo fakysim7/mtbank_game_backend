@@ -32,6 +32,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'liderbord',
     'rest_framework',
+    "django_filters",
 ]
 
 MIDDLEWARE = [

@@ -80,8 +80,8 @@ class SubmitScoreView(generics.GenericAPIView):
 
 class LeaderboardViewSet(viewsets.ReadOnlyModelViewSet):
     """
-    GET /leaderboard/      — рейтинг всех игроков, отсортирован по rank
-    GET /leaderboard/{id}/ — профиль конкретного игрока
+    GET /leaderboard/  
+    GET /leaderboard/{id}/ 
     """
 
     queryset = PlayerProfile.objects.select_related("user").order_by("rank", "-score")

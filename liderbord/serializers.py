@@ -11,6 +11,7 @@ class OfferSerializer(serializers.ModelSerializer):
         fields = [
             "id",
             "title",
+            "company_name",
             "description",
             "offer_type",
             "discount_percent",

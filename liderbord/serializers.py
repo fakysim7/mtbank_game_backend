@@ -30,13 +30,9 @@ class CompanySerializer(serializers.ModelSerializer):
         fields = [
             "id",
             "name",
-            "slug",
             "logo",
-            "description",
-            "website",
             "is_active",
             "offers_count",
-            "created_at",
         ]
 
     def get_offers_count(self, obj):

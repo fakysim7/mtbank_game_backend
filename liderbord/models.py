@@ -75,18 +75,14 @@ class Company(models.Model):
     """Таблица компаний"""
 
     name = models.CharField(max_length=255, verbose_name="Название компании")
-    slug = models.SlugField(unique=True, verbose_name="URL-идентификатор")
     logo = models.ImageField(
         upload_to="companies/logos/",
         null=True,
         blank=True,
         verbose_name="Логотип",
     )
-    description = models.TextField(blank=True, verbose_name="Описание")
-    website = models.URLField(blank=True, verbose_name="Сайт")
     is_active = models.BooleanField(default=True, verbose_name="Активна")
     created_at = models.DateTimeField(auto_now_add=True, verbose_name="Дата создания")
-    updated_at = models.DateTimeField(auto_now=True, verbose_name="Дата обновления")
 
     class Meta:
         verbose_name = "Компания"

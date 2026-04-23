@@ -109,6 +109,11 @@ class Offer(models.Model):
         related_name="offers",
         verbose_name="Компания",
     )
+    distance = models.PositiveIntegerField(
+        default=100,
+        verbose_name="Дистанция (м)",
+        help_text="Игровая дистанция — чем круче бонус, тем больше"
+    )
     title = models.CharField(max_length=255, verbose_name="Заголовок")
     description = models.TextField(verbose_name="Описание предложения")
     offer_type = models.CharField(

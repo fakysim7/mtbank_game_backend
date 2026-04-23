@@ -1,0 +1,4418 @@
+[
+  {
+    "model": "liderbord.company",
+    "pk": 1,
+    "fields": {
+      "name": "Burger King",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 1,
+    "fields": {
+      "company": 1,
+      "title": "Кэшбэк 20% на категорию",
+      "description": "Повышенный кэшбэк 20% на выбранные категории товаров",
+      "offer_type": "cashback",
+      "discount_percent": 20,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1400
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 2,
+    "fields": {
+      "company": 1,
+      "title": "Скидка 30% в день рождения",
+      "description": "Скидка 30% в месяц твоего дня рождения",
+      "offer_type": "discount",
+      "discount_percent": 30,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1100
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 3,
+    "fields": {
+      "company": 1,
+      "title": "Кэшбэк 15% на категорию",
+      "description": "Повышенный кэшбэк 15% на выбранные категории товаров",
+      "offer_type": "cashback",
+      "discount_percent": 15,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1300
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 2,
+    "fields": {
+      "name": "McDonald's",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 4,
+    "fields": {
+      "company": 2,
+      "title": "Скидка 25% на первый заказ",
+      "description": "Специальное предложение для новых клиентов — скидка 25%",
+      "offer_type": "discount",
+      "discount_percent": 25,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1000
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 3,
+    "fields": {
+      "name": "KFC",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 5,
+    "fields": {
+      "company": 3,
+      "title": "Скидка 10% в день рождения",
+      "description": "Скидка 10% в месяц твоего дня рождения",
+      "offer_type": "discount",
+      "discount_percent": 10,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 700
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 6,
+    "fields": {
+      "company": 3,
+      "title": "Двойной кэшбэк по выходным",
+      "description": "Кэшбэк 25% каждую субботу и воскресенье",
+      "offer_type": "cashback",
+      "discount_percent": 25,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1500
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 7,
+    "fields": {
+      "company": 3,
+      "title": "Кэшбэк 5% на категорию",
+      "description": "Повышенный кэшбэк 5% на выбранные категории товаров",
+      "offer_type": "cashback",
+      "discount_percent": 5,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1100
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 4,
+    "fields": {
+      "name": "Subway",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 8,
+    "fields": {
+      "company": 4,
+      "title": "Бесплатная доставка",
+      "description": "Бесплатная доставка при оплате картой МТБанк",
+      "offer_type": "gift",
+      "discount_percent": null,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 2100
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 5,
+    "fields": {
+      "name": "Pizza Hut",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 9,
+    "fields": {
+      "company": 5,
+      "title": "Кэшбэк 5% на покупки",
+      "description": "Возврат 5% от суммы каждой покупки на бонусный счёт",
+      "offer_type": "cashback",
+      "discount_percent": 5,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1100
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 10,
+    "fields": {
+      "company": 5,
+      "title": "Скидка 20% по промокоду",
+      "description": "Используй промокод МТБ и сэкономь 20%",
+      "offer_type": "promo",
+      "discount_percent": null,
+      "promo_code": "PLAY5",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1900
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 11,
+    "fields": {
+      "company": 5,
+      "title": "Скидка 10% на первый заказ",
+      "description": "Специальное предложение для новых клиентов — скидка 10%",
+      "offer_type": "discount",
+      "discount_percent": 10,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 700
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 6,
+    "fields": {
+      "name": "Domino's",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 12,
+    "fields": {
+      "company": 6,
+      "title": "Кэшбэк 30% на покупки",
+      "description": "Возврат 30% от суммы каждой покупки на бонусный счёт",
+      "offer_type": "cashback",
+      "discount_percent": 30,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1600
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 13,
+    "fields": {
+      "company": 6,
+      "title": "Подарок при покупке от 1000 руб",
+      "description": "При покупке на сумму от 1000 рублей — фирменный подарок",
+      "offer_type": "gift",
+      "discount_percent": null,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 2400
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 7,
+    "fields": {
+      "name": "Starbucks",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 14,
+    "fields": {
+      "company": 7,
+      "title": "Скидка 20% в день рождения",
+      "description": "Скидка 20% в месяц твоего дня рождения",
+      "offer_type": "discount",
+      "discount_percent": 20,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 900
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 8,
+    "fields": {
+      "name": "Costa Coffee",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 15,
+    "fields": {
+      "company": 8,
+      "title": "Промокод на 30% скидку",
+      "description": "Введи промокод и получи скидку 30% на весь заказ",
+      "offer_type": "promo",
+      "discount_percent": null,
+      "promo_code": "WIN15",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 2100
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 9,
+    "fields": {
+      "name": "Шоколадница",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 16,
+    "fields": {
+      "company": 9,
+      "title": "Двойной кэшбэк по выходным",
+      "description": "Кэшбэк 20% каждую субботу и воскресенье",
+      "offer_type": "cashback",
+      "discount_percent": 20,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1400
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 10,
+    "fields": {
+      "name": "Cinnabon",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 17,
+    "fields": {
+      "company": 10,
+      "title": "Скидка 5% в день рождения",
+      "description": "Скидка 5% в месяц твоего дня рождения",
+      "offer_type": "discount",
+      "discount_percent": 5,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 600
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 11,
+    "fields": {
+      "name": "Спортмастер",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 18,
+    "fields": {
+      "company": 11,
+      "title": "Скидка 20% по промокоду",
+      "description": "Используй промокод МТБ и сэкономь 20%",
+      "offer_type": "promo",
+      "discount_percent": null,
+      "promo_code": "MTB20",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1900
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 19,
+    "fields": {
+      "company": 11,
+      "title": "Кэшбэк 30% на категорию",
+      "description": "Повышенный кэшбэк 30% на выбранные категории товаров",
+      "offer_type": "cashback",
+      "discount_percent": 30,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1600
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 20,
+    "fields": {
+      "company": 11,
+      "title": "Промокод на 20% скидку",
+      "description": "Введи промокод и получи скидку 20% на весь заказ",
+      "offer_type": "promo",
+      "discount_percent": null,
+      "promo_code": "BANK5",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1900
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 12,
+    "fields": {
+      "name": "Decathlon",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 21,
+    "fields": {
+      "company": 12,
+      "title": "Кэшбэк 30% на покупки",
+      "description": "Возврат 30% от суммы каждой покупки на бонусный счёт",
+      "offer_type": "cashback",
+      "discount_percent": 30,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1600
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 13,
+    "fields": {
+      "name": "Nike",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 22,
+    "fields": {
+      "company": 13,
+      "title": "Скидка 10% на первый заказ",
+      "description": "Специальное предложение для новых клиентов — скидка 10%",
+      "offer_type": "discount",
+      "discount_percent": 10,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 700
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 14,
+    "fields": {
+      "name": "Adidas",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 23,
+    "fields": {
+      "company": 14,
+      "title": "Кэшбэк 5% на категорию",
+      "description": "Повышенный кэшбэк 5% на выбранные категории товаров",
+      "offer_type": "cashback",
+      "discount_percent": 5,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1100
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 24,
+    "fields": {
+      "company": 14,
+      "title": "Двойной кэшбэк по выходным",
+      "description": "Кэшбэк 15% каждую субботу и воскресенье",
+      "offer_type": "cashback",
+      "discount_percent": 15,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1300
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 15,
+    "fields": {
+      "name": "Puma",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 25,
+    "fields": {
+      "company": 15,
+      "title": "Подарок при покупке от 1000 руб",
+      "description": "При покупке на сумму от 1000 рублей — фирменный подарок",
+      "offer_type": "gift",
+      "discount_percent": null,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 2200
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 26,
+    "fields": {
+      "company": 15,
+      "title": "Промокод на 5% скидку",
+      "description": "Введи промокод и получи скидку 5% на весь заказ",
+      "offer_type": "promo",
+      "discount_percent": null,
+      "promo_code": "PLAY5",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1600
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 16,
+    "fields": {
+      "name": "Reebok",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 27,
+    "fields": {
+      "company": 16,
+      "title": "Промокод на 25% скидку",
+      "description": "Введи промокод и получи скидку 25% на весь заказ",
+      "offer_type": "promo",
+      "discount_percent": null,
+      "promo_code": "TOP20",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 2000
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 17,
+    "fields": {
+      "name": "H&M",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 28,
+    "fields": {
+      "company": 17,
+      "title": "Двойной кэшбэк по выходным",
+      "description": "Кэшбэк 10% каждую субботу и воскресенье",
+      "offer_type": "cashback",
+      "discount_percent": 10,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1200
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 18,
+    "fields": {
+      "name": "Zara",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 29,
+    "fields": {
+      "company": 18,
+      "title": "Скидка 10% на первый заказ",
+      "description": "Специальное предложение для новых клиентов — скидка 10%",
+      "offer_type": "discount",
+      "discount_percent": 10,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 700
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 30,
+    "fields": {
+      "company": 18,
+      "title": "Скидка 25% на все товары",
+      "description": "Получи скидку 25% при оплате картой МТБанк",
+      "offer_type": "discount",
+      "discount_percent": 25,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1000
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 31,
+    "fields": {
+      "company": 18,
+      "title": "Скидка 25% в день рождения",
+      "description": "Скидка 25% в месяц твоего дня рождения",
+      "offer_type": "discount",
+      "discount_percent": 25,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1000
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 19,
+    "fields": {
+      "name": "Uniqlo",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 32,
+    "fields": {
+      "company": 19,
+      "title": "Кэшбэк 30% на покупки",
+      "description": "Возврат 30% от суммы каждой покупки на бонусный счёт",
+      "offer_type": "cashback",
+      "discount_percent": 30,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1600
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 20,
+    "fields": {
+      "name": "Mango",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 33,
+    "fields": {
+      "company": 20,
+      "title": "Подарок при покупке от 1000 руб",
+      "description": "При покупке на сумму от 1000 рублей — фирменный подарок",
+      "offer_type": "gift",
+      "discount_percent": null,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 2500
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 34,
+    "fields": {
+      "company": 20,
+      "title": "Промокод на 20% скидку",
+      "description": "Введи промокод и получи скидку 20% на весь заказ",
+      "offer_type": "promo",
+      "discount_percent": null,
+      "promo_code": "VIP30",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1900
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 21,
+    "fields": {
+      "name": "Л'Этуаль",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 35,
+    "fields": {
+      "company": 21,
+      "title": "Скидка 20% по промокоду",
+      "description": "Используй промокод МТБ и сэкономь 20%",
+      "offer_type": "promo",
+      "discount_percent": null,
+      "promo_code": "BONUS25",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1900
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 36,
+    "fields": {
+      "company": 21,
+      "title": "Двойной кэшбэк по выходным",
+      "description": "Кэшбэк 20% каждую субботу и воскресенье",
+      "offer_type": "cashback",
+      "discount_percent": 20,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1400
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 22,
+    "fields": {
+      "name": "Золотое Яблоко",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 37,
+    "fields": {
+      "company": 22,
+      "title": "Промокод на 10% скидку",
+      "description": "Введи промокод и получи скидку 10% на весь заказ",
+      "offer_type": "promo",
+      "discount_percent": null,
+      "promo_code": "PLAY5",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1700
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 38,
+    "fields": {
+      "company": 22,
+      "title": "Скидка 5% по промокоду",
+      "description": "Используй промокод МТБ и сэкономь 5%",
+      "offer_type": "promo",
+      "discount_percent": null,
+      "promo_code": "GAME10",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1600
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 23,
+    "fields": {
+      "name": "Рив Гош",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 39,
+    "fields": {
+      "company": 23,
+      "title": "Подарок при покупке от 1000 руб",
+      "description": "При покупке на сумму от 1000 рублей — фирменный подарок",
+      "offer_type": "gift",
+      "discount_percent": null,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 2500
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 40,
+    "fields": {
+      "company": 23,
+      "title": "Скидка 20% на все товары",
+      "description": "Получи скидку 20% при оплате картой МТБанк",
+      "offer_type": "discount",
+      "discount_percent": 20,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 900
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 24,
+    "fields": {
+      "name": "Иль де Ботэ",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 41,
+    "fields": {
+      "company": 24,
+      "title": "Скидка 20% на первый заказ",
+      "description": "Специальное предложение для новых клиентов — скидка 20%",
+      "offer_type": "discount",
+      "discount_percent": 20,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 900
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 25,
+    "fields": {
+      "name": "MAC Cosmetics",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 42,
+    "fields": {
+      "company": 25,
+      "title": "Скидка 30% на все товары",
+      "description": "Получи скидку 30% при оплате картой МТБанк",
+      "offer_type": "discount",
+      "discount_percent": 30,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1100
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 26,
+    "fields": {
+      "name": "М.Видео",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 43,
+    "fields": {
+      "company": 26,
+      "title": "Бесплатная доставка",
+      "description": "Бесплатная доставка при оплате картой МТБанк",
+      "offer_type": "gift",
+      "discount_percent": null,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 2100
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 27,
+    "fields": {
+      "name": "Эльдорадо",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 44,
+    "fields": {
+      "company": 27,
+      "title": "Двойной кэшбэк по выходным",
+      "description": "Кэшбэк 10% каждую субботу и воскресенье",
+      "offer_type": "cashback",
+      "discount_percent": 10,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1200
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 45,
+    "fields": {
+      "company": 27,
+      "title": "Двойной кэшбэк по выходным",
+      "description": "Кэшбэк 25% каждую субботу и воскресенье",
+      "offer_type": "cashback",
+      "discount_percent": 25,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1500
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 28,
+    "fields": {
+      "name": "DNS",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 46,
+    "fields": {
+      "company": 28,
+      "title": "Кэшбэк 5% на покупки",
+      "description": "Возврат 5% от суммы каждой покупки на бонусный счёт",
+      "offer_type": "cashback",
+      "discount_percent": 5,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1100
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 47,
+    "fields": {
+      "company": 28,
+      "title": "Скидка 25% на первый заказ",
+      "description": "Специальное предложение для новых клиентов — скидка 25%",
+      "offer_type": "discount",
+      "discount_percent": 25,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1000
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 48,
+    "fields": {
+      "company": 28,
+      "title": "Скидка 5% в день рождения",
+      "description": "Скидка 5% в месяц твоего дня рождения",
+      "offer_type": "discount",
+      "discount_percent": 5,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 600
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 29,
+    "fields": {
+      "name": "re:Store",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 49,
+    "fields": {
+      "company": 29,
+      "title": "Промокод на 25% скидку",
+      "description": "Введи промокод и получи скидку 25% на весь заказ",
+      "offer_type": "promo",
+      "discount_percent": null,
+      "promo_code": "MTB15",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 2000
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 50,
+    "fields": {
+      "company": 29,
+      "title": "Скидка 30% по промокоду",
+      "description": "Используй промокод МТБ и сэкономь 30%",
+      "offer_type": "promo",
+      "discount_percent": null,
+      "promo_code": "MTB15",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 2100
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 51,
+    "fields": {
+      "company": 29,
+      "title": "Промокод на 5% скидку",
+      "description": "Введи промокод и получи скидку 5% на весь заказ",
+      "offer_type": "promo",
+      "discount_percent": null,
+      "promo_code": "WIN15",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1600
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 30,
+    "fields": {
+      "name": "Samsung",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 52,
+    "fields": {
+      "company": 30,
+      "title": "Кэшбэк 20% на категорию",
+      "description": "Повышенный кэшбэк 20% на выбранные категории товаров",
+      "offer_type": "cashback",
+      "discount_percent": 20,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1400
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 31,
+    "fields": {
+      "name": "Перекрёсток",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 53,
+    "fields": {
+      "company": 31,
+      "title": "Кэшбэк 5% на покупки",
+      "description": "Возврат 5% от суммы каждой покупки на бонусный счёт",
+      "offer_type": "cashback",
+      "discount_percent": 5,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1100
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 54,
+    "fields": {
+      "company": 31,
+      "title": "Промокод на 20% скидку",
+      "description": "Введи промокод и получи скидку 20% на весь заказ",
+      "offer_type": "promo",
+      "discount_percent": null,
+      "promo_code": "PLAY5",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1900
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 32,
+    "fields": {
+      "name": "Пятёрочка",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 55,
+    "fields": {
+      "company": 32,
+      "title": "Подарок при покупке от 1000 руб",
+      "description": "При покупке на сумму от 1000 рублей — фирменный подарок",
+      "offer_type": "gift",
+      "discount_percent": null,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 2500
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 56,
+    "fields": {
+      "company": 32,
+      "title": "Подарок при покупке от 1000 руб",
+      "description": "При покупке на сумму от 1000 рублей — фирменный подарок",
+      "offer_type": "gift",
+      "discount_percent": null,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 2400
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 33,
+    "fields": {
+      "name": "Магнит",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 57,
+    "fields": {
+      "company": 33,
+      "title": "Кэшбэк 25% на покупки",
+      "description": "Возврат 25% от суммы каждой покупки на бонусный счёт",
+      "offer_type": "cashback",
+      "discount_percent": 25,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1500
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 58,
+    "fields": {
+      "company": 33,
+      "title": "Кэшбэк 20% на покупки",
+      "description": "Возврат 20% от суммы каждой покупки на бонусный счёт",
+      "offer_type": "cashback",
+      "discount_percent": 20,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1400
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 34,
+    "fields": {
+      "name": "ВкусВилл",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 59,
+    "fields": {
+      "company": 34,
+      "title": "Скидка 25% на все товары",
+      "description": "Получи скидку 25% при оплате картой МТБанк",
+      "offer_type": "discount",
+      "discount_percent": 25,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1000
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 60,
+    "fields": {
+      "company": 34,
+      "title": "Подарок при покупке от 1000 руб",
+      "description": "При покупке на сумму от 1000 рублей — фирменный подарок",
+      "offer_type": "gift",
+      "discount_percent": null,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 2500
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 35,
+    "fields": {
+      "name": "Азбука Вкуса",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 61,
+    "fields": {
+      "company": 35,
+      "title": "Скидка 10% на все товары",
+      "description": "Получи скидку 10% при оплате картой МТБанк",
+      "offer_type": "discount",
+      "discount_percent": 10,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 700
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 36,
+    "fields": {
+      "name": "Ашан",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 62,
+    "fields": {
+      "company": 36,
+      "title": "Промокод на 20% скидку",
+      "description": "Введи промокод и получи скидку 20% на весь заказ",
+      "offer_type": "promo",
+      "discount_percent": null,
+      "promo_code": "PLAY5",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1900
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 63,
+    "fields": {
+      "company": 36,
+      "title": "Кэшбэк 25% на категорию",
+      "description": "Повышенный кэшбэк 25% на выбранные категории товаров",
+      "offer_type": "cashback",
+      "discount_percent": 25,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1500
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 64,
+    "fields": {
+      "company": 36,
+      "title": "Скидка 30% на первый заказ",
+      "description": "Специальное предложение для новых клиентов — скидка 30%",
+      "offer_type": "discount",
+      "discount_percent": 30,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1100
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 37,
+    "fields": {
+      "name": "Леруа Мерлен",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 65,
+    "fields": {
+      "company": 37,
+      "title": "Скидка 15% на первый заказ",
+      "description": "Специальное предложение для новых клиентов — скидка 15%",
+      "offer_type": "discount",
+      "discount_percent": 15,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 800
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 66,
+    "fields": {
+      "company": 37,
+      "title": "Промокод на 15% скидку",
+      "description": "Введи промокод и получи скидку 15% на весь заказ",
+      "offer_type": "promo",
+      "discount_percent": null,
+      "promo_code": "WIN15",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1800
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 67,
+    "fields": {
+      "company": 37,
+      "title": "Промокод на 20% скидку",
+      "description": "Введи промокод и получи скидку 20% на весь заказ",
+      "offer_type": "promo",
+      "discount_percent": null,
+      "promo_code": "MTB10",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1900
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 38,
+    "fields": {
+      "name": "IKEA",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 68,
+    "fields": {
+      "company": 38,
+      "title": "Скидка 10% в день рождения",
+      "description": "Скидка 10% в месяц твоего дня рождения",
+      "offer_type": "discount",
+      "discount_percent": 10,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 700
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 69,
+    "fields": {
+      "company": 38,
+      "title": "Кэшбэк 5% на категорию",
+      "description": "Повышенный кэшбэк 5% на выбранные категории товаров",
+      "offer_type": "cashback",
+      "discount_percent": 5,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1100
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 39,
+    "fields": {
+      "name": "OBI",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 70,
+    "fields": {
+      "company": 39,
+      "title": "Подарок при покупке от 1000 руб",
+      "description": "При покупке на сумму от 1000 рублей — фирменный подарок",
+      "offer_type": "gift",
+      "discount_percent": null,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 2300
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 71,
+    "fields": {
+      "company": 39,
+      "title": "Кэшбэк 5% на покупки",
+      "description": "Возврат 5% от суммы каждой покупки на бонусный счёт",
+      "offer_type": "cashback",
+      "discount_percent": 5,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1100
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 40,
+    "fields": {
+      "name": "Hoff",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 72,
+    "fields": {
+      "company": 40,
+      "title": "Скидка 30% в день рождения",
+      "description": "Скидка 30% в месяц твоего дня рождения",
+      "offer_type": "discount",
+      "discount_percent": 30,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1100
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 41,
+    "fields": {
+      "name": "Wildberries",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 73,
+    "fields": {
+      "company": 41,
+      "title": "Скидка 15% на первый заказ",
+      "description": "Специальное предложение для новых клиентов — скидка 15%",
+      "offer_type": "discount",
+      "discount_percent": 15,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 800
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 42,
+    "fields": {
+      "name": "Ozon",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 74,
+    "fields": {
+      "company": 42,
+      "title": "Кэшбэк 5% на категорию",
+      "description": "Повышенный кэшбэк 5% на выбранные категории товаров",
+      "offer_type": "cashback",
+      "discount_percent": 5,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1100
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 75,
+    "fields": {
+      "company": 42,
+      "title": "Кэшбэк 25% на покупки",
+      "description": "Возврат 25% от суммы каждой покупки на бонусный счёт",
+      "offer_type": "cashback",
+      "discount_percent": 25,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1500
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 76,
+    "fields": {
+      "company": 42,
+      "title": "Скидка 15% по промокоду",
+      "description": "Используй промокод МТБ и сэкономь 15%",
+      "offer_type": "promo",
+      "discount_percent": null,
+      "promo_code": "GAME10",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1800
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 43,
+    "fields": {
+      "name": "AliExpress",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 77,
+    "fields": {
+      "company": 43,
+      "title": "Скидка 5% по промокоду",
+      "description": "Используй промокод МТБ и сэкономь 5%",
+      "offer_type": "promo",
+      "discount_percent": null,
+      "promo_code": "MTB10",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1600
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 78,
+    "fields": {
+      "company": 43,
+      "title": "Скидка 10% на первый заказ",
+      "description": "Специальное предложение для новых клиентов — скидка 10%",
+      "offer_type": "discount",
+      "discount_percent": 10,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 700
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 79,
+    "fields": {
+      "company": 43,
+      "title": "Скидка 25% в день рождения",
+      "description": "Скидка 25% в месяц твоего дня рождения",
+      "offer_type": "discount",
+      "discount_percent": 25,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1000
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 44,
+    "fields": {
+      "name": "Lamoda",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 80,
+    "fields": {
+      "company": 44,
+      "title": "Скидка 5% в день рождения",
+      "description": "Скидка 5% в месяц твоего дня рождения",
+      "offer_type": "discount",
+      "discount_percent": 5,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 600
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 45,
+    "fields": {
+      "name": "СберМегаМаркет",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 81,
+    "fields": {
+      "company": 45,
+      "title": "Кэшбэк 15% на категорию",
+      "description": "Повышенный кэшбэк 15% на выбранные категории товаров",
+      "offer_type": "cashback",
+      "discount_percent": 15,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1300
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 46,
+    "fields": {
+      "name": "Аэрофлот",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 82,
+    "fields": {
+      "company": 46,
+      "title": "Подарок при покупке от 1000 руб",
+      "description": "При покупке на сумму от 1000 рублей — фирменный подарок",
+      "offer_type": "gift",
+      "discount_percent": null,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 2600
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 83,
+    "fields": {
+      "company": 46,
+      "title": "Скидка 25% на первый заказ",
+      "description": "Специальное предложение для новых клиентов — скидка 25%",
+      "offer_type": "discount",
+      "discount_percent": 25,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1000
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 84,
+    "fields": {
+      "company": 46,
+      "title": "Скидка 15% в день рождения",
+      "description": "Скидка 15% в месяц твоего дня рождения",
+      "offer_type": "discount",
+      "discount_percent": 15,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 800
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 47,
+    "fields": {
+      "name": "S7 Airlines",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 85,
+    "fields": {
+      "company": 47,
+      "title": "Кэшбэк 15% на категорию",
+      "description": "Повышенный кэшбэк 15% на выбранные категории товаров",
+      "offer_type": "cashback",
+      "discount_percent": 15,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1300
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 86,
+    "fields": {
+      "company": 47,
+      "title": "Скидка 10% на все товары",
+      "description": "Получи скидку 10% при оплате картой МТБанк",
+      "offer_type": "discount",
+      "discount_percent": 10,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 700
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 87,
+    "fields": {
+      "company": 47,
+      "title": "Промокод на 30% скидку",
+      "description": "Введи промокод и получи скидку 30% на весь заказ",
+      "offer_type": "promo",
+      "discount_percent": null,
+      "promo_code": "VIP30",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 2100
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 48,
+    "fields": {
+      "name": "Победа",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 88,
+    "fields": {
+      "company": 48,
+      "title": "Двойной кэшбэк по выходным",
+      "description": "Кэшбэк 20% каждую субботу и воскресенье",
+      "offer_type": "cashback",
+      "discount_percent": 20,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1400
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 89,
+    "fields": {
+      "company": 48,
+      "title": "Двойной кэшбэк по выходным",
+      "description": "Кэшбэк 25% каждую субботу и воскресенье",
+      "offer_type": "cashback",
+      "discount_percent": 25,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1500
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 90,
+    "fields": {
+      "company": 48,
+      "title": "Скидка 5% в день рождения",
+      "description": "Скидка 5% в месяц твоего дня рождения",
+      "offer_type": "discount",
+      "discount_percent": 5,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 600
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 49,
+    "fields": {
+      "name": "РЖД",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 91,
+    "fields": {
+      "company": 49,
+      "title": "Скидка 10% в день рождения",
+      "description": "Скидка 10% в месяц твоего дня рождения",
+      "offer_type": "discount",
+      "discount_percent": 10,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 700
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 92,
+    "fields": {
+      "company": 49,
+      "title": "Скидка 30% на первый заказ",
+      "description": "Специальное предложение для новых клиентов — скидка 30%",
+      "offer_type": "discount",
+      "discount_percent": 30,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1100
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 93,
+    "fields": {
+      "company": 49,
+      "title": "Бесплатная доставка",
+      "description": "Бесплатная доставка при оплате картой МТБанк",
+      "offer_type": "gift",
+      "discount_percent": null,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 2600
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 50,
+    "fields": {
+      "name": "BlaBlaCar",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 94,
+    "fields": {
+      "company": 50,
+      "title": "Бесплатная доставка",
+      "description": "Бесплатная доставка при оплате картой МТБанк",
+      "offer_type": "gift",
+      "discount_percent": null,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 2300
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 95,
+    "fields": {
+      "company": 50,
+      "title": "Двойной кэшбэк по выходным",
+      "description": "Кэшбэк 30% каждую субботу и воскресенье",
+      "offer_type": "cashback",
+      "discount_percent": 30,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1600
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 96,
+    "fields": {
+      "company": 50,
+      "title": "Подарок при покупке от 1000 руб",
+      "description": "При покупке на сумму от 1000 рублей — фирменный подарок",
+      "offer_type": "gift",
+      "discount_percent": null,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 2200
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 51,
+    "fields": {
+      "name": "Яндекс Такси",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 97,
+    "fields": {
+      "company": 51,
+      "title": "Скидка 15% в день рождения",
+      "description": "Скидка 15% в месяц твоего дня рождения",
+      "offer_type": "discount",
+      "discount_percent": 15,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 800
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 52,
+    "fields": {
+      "name": "Uber",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 98,
+    "fields": {
+      "company": 52,
+      "title": "Бесплатная доставка",
+      "description": "Бесплатная доставка при оплате картой МТБанк",
+      "offer_type": "gift",
+      "discount_percent": null,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 2300
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 99,
+    "fields": {
+      "company": 52,
+      "title": "Скидка 5% по промокоду",
+      "description": "Используй промокод МТБ и сэкономь 5%",
+      "offer_type": "promo",
+      "discount_percent": null,
+      "promo_code": "VIP30",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1600
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 100,
+    "fields": {
+      "company": 52,
+      "title": "Кэшбэк 25% на категорию",
+      "description": "Повышенный кэшбэк 25% на выбранные категории товаров",
+      "offer_type": "cashback",
+      "discount_percent": 25,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1500
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 53,
+    "fields": {
+      "name": "Ситимобил",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 101,
+    "fields": {
+      "company": 53,
+      "title": "Кэшбэк 10% на категорию",
+      "description": "Повышенный кэшбэк 10% на выбранные категории товаров",
+      "offer_type": "cashback",
+      "discount_percent": 10,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1200
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 102,
+    "fields": {
+      "company": 53,
+      "title": "Двойной кэшбэк по выходным",
+      "description": "Кэшбэк 10% каждую субботу и воскресенье",
+      "offer_type": "cashback",
+      "discount_percent": 10,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1200
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 54,
+    "fields": {
+      "name": "Делимобиль",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 103,
+    "fields": {
+      "company": 54,
+      "title": "Промокод на 25% скидку",
+      "description": "Введи промокод и получи скидку 25% на весь заказ",
+      "offer_type": "promo",
+      "discount_percent": null,
+      "promo_code": "TOP20",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 2000
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 104,
+    "fields": {
+      "company": 54,
+      "title": "Кэшбэк 20% на покупки",
+      "description": "Возврат 20% от суммы каждой покупки на бонусный счёт",
+      "offer_type": "cashback",
+      "discount_percent": 20,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1400
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 55,
+    "fields": {
+      "name": "YouDrive",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 105,
+    "fields": {
+      "company": 55,
+      "title": "Бесплатная доставка",
+      "description": "Бесплатная доставка при оплате картой МТБанк",
+      "offer_type": "gift",
+      "discount_percent": null,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 2200
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 56,
+    "fields": {
+      "name": "Кинопоиск",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 106,
+    "fields": {
+      "company": 56,
+      "title": "Кэшбэк 5% на категорию",
+      "description": "Повышенный кэшбэк 5% на выбранные категории товаров",
+      "offer_type": "cashback",
+      "discount_percent": 5,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1100
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 107,
+    "fields": {
+      "company": 56,
+      "title": "Кэшбэк 25% на категорию",
+      "description": "Повышенный кэшбэк 25% на выбранные категории товаров",
+      "offer_type": "cashback",
+      "discount_percent": 25,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1500
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 108,
+    "fields": {
+      "company": 56,
+      "title": "Скидка 25% на все товары",
+      "description": "Получи скидку 25% при оплате картой МТБанк",
+      "offer_type": "discount",
+      "discount_percent": 25,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1000
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 57,
+    "fields": {
+      "name": "Иви",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 109,
+    "fields": {
+      "company": 57,
+      "title": "Скидка 15% по промокоду",
+      "description": "Используй промокод МТБ и сэкономь 15%",
+      "offer_type": "promo",
+      "discount_percent": null,
+      "promo_code": "GAME10",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1800
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 58,
+    "fields": {
+      "name": "Okko",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 110,
+    "fields": {
+      "company": 58,
+      "title": "Подарок при покупке от 1000 руб",
+      "description": "При покупке на сумму от 1000 рублей — фирменный подарок",
+      "offer_type": "gift",
+      "discount_percent": null,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 2500
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 59,
+    "fields": {
+      "name": "Spotify",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 111,
+    "fields": {
+      "company": 59,
+      "title": "Скидка 15% на первый заказ",
+      "description": "Специальное предложение для новых клиентов — скидка 15%",
+      "offer_type": "discount",
+      "discount_percent": 15,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 800
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 112,
+    "fields": {
+      "company": 59,
+      "title": "Скидка 15% на первый заказ",
+      "description": "Специальное предложение для новых клиентов — скидка 15%",
+      "offer_type": "discount",
+      "discount_percent": 15,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 800
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 60,
+    "fields": {
+      "name": "Яндекс Музыка",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 113,
+    "fields": {
+      "company": 60,
+      "title": "Скидка 25% на все товары",
+      "description": "Получи скидку 25% при оплате картой МТБанк",
+      "offer_type": "discount",
+      "discount_percent": 25,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1000
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 61,
+    "fields": {
+      "name": "Litres",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 114,
+    "fields": {
+      "company": 61,
+      "title": "Кэшбэк 10% на категорию",
+      "description": "Повышенный кэшбэк 10% на выбранные категории товаров",
+      "offer_type": "cashback",
+      "discount_percent": 10,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1200
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 62,
+    "fields": {
+      "name": "Читай-город",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 115,
+    "fields": {
+      "company": 62,
+      "title": "Двойной кэшбэк по выходным",
+      "description": "Кэшбэк 15% каждую субботу и воскресенье",
+      "offer_type": "cashback",
+      "discount_percent": 15,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1300
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 63,
+    "fields": {
+      "name": "Буквоед",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 116,
+    "fields": {
+      "company": 63,
+      "title": "Кэшбэк 5% на категорию",
+      "description": "Повышенный кэшбэк 5% на выбранные категории товаров",
+      "offer_type": "cashback",
+      "discount_percent": 5,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1100
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 117,
+    "fields": {
+      "company": 63,
+      "title": "Двойной кэшбэк по выходным",
+      "description": "Кэшбэк 20% каждую субботу и воскресенье",
+      "offer_type": "cashback",
+      "discount_percent": 20,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1400
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 64,
+    "fields": {
+      "name": "Лабиринт",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 118,
+    "fields": {
+      "company": 64,
+      "title": "Скидка 20% на все товары",
+      "description": "Получи скидку 20% при оплате картой МТБанк",
+      "offer_type": "discount",
+      "discount_percent": 20,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 900
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 119,
+    "fields": {
+      "company": 64,
+      "title": "Кэшбэк 20% на категорию",
+      "description": "Повышенный кэшбэк 20% на выбранные категории товаров",
+      "offer_type": "cashback",
+      "discount_percent": 20,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1400
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 65,
+    "fields": {
+      "name": "MyBook",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 120,
+    "fields": {
+      "company": 65,
+      "title": "Скидка 5% по промокоду",
+      "description": "Используй промокод МТБ и сэкономь 5%",
+      "offer_type": "promo",
+      "discount_percent": null,
+      "promo_code": "WIN15",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1600
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 121,
+    "fields": {
+      "company": 65,
+      "title": "Бесплатная доставка",
+      "description": "Бесплатная доставка при оплате картой МТБанк",
+      "offer_type": "gift",
+      "discount_percent": null,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 2600
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 122,
+    "fields": {
+      "company": 65,
+      "title": "Кэшбэк 25% на категорию",
+      "description": "Повышенный кэшбэк 25% на выбранные категории товаров",
+      "offer_type": "cashback",
+      "discount_percent": 25,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1500
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 66,
+    "fields": {
+      "name": "Сбербанк",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 123,
+    "fields": {
+      "company": 66,
+      "title": "Скидка 10% на первый заказ",
+      "description": "Специальное предложение для новых клиентов — скидка 10%",
+      "offer_type": "discount",
+      "discount_percent": 10,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 700
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 67,
+    "fields": {
+      "name": "Тинькофф",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 124,
+    "fields": {
+      "company": 67,
+      "title": "Скидка 25% на все товары",
+      "description": "Получи скидку 25% при оплате картой МТБанк",
+      "offer_type": "discount",
+      "discount_percent": 25,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1000
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 125,
+    "fields": {
+      "company": 67,
+      "title": "Промокод на 20% скидку",
+      "description": "Введи промокод и получи скидку 20% на весь заказ",
+      "offer_type": "promo",
+      "discount_percent": null,
+      "promo_code": "MTB10",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1900
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 68,
+    "fields": {
+      "name": "Альфа-Банк",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 126,
+    "fields": {
+      "company": 68,
+      "title": "Двойной кэшбэк по выходным",
+      "description": "Кэшбэк 20% каждую субботу и воскресенье",
+      "offer_type": "cashback",
+      "discount_percent": 20,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1400
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 127,
+    "fields": {
+      "company": 68,
+      "title": "Скидка 15% на все товары",
+      "description": "Получи скидку 15% при оплате картой МТБанк",
+      "offer_type": "discount",
+      "discount_percent": 15,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 800
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 128,
+    "fields": {
+      "company": 68,
+      "title": "Двойной кэшбэк по выходным",
+      "description": "Кэшбэк 15% каждую субботу и воскресенье",
+      "offer_type": "cashback",
+      "discount_percent": 15,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1300
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 69,
+    "fields": {
+      "name": "ВТБ",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 129,
+    "fields": {
+      "company": 69,
+      "title": "Скидка 20% по промокоду",
+      "description": "Используй промокод МТБ и сэкономь 20%",
+      "offer_type": "promo",
+      "discount_percent": null,
+      "promo_code": "MTB15",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1900
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 130,
+    "fields": {
+      "company": 69,
+      "title": "Подарок при покупке от 1000 руб",
+      "description": "При покупке на сумму от 1000 рублей — фирменный подарок",
+      "offer_type": "gift",
+      "discount_percent": null,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 2400
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 131,
+    "fields": {
+      "company": 69,
+      "title": "Скидка 25% на все товары",
+      "description": "Получи скидку 25% при оплате картой МТБанк",
+      "offer_type": "discount",
+      "discount_percent": 25,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1000
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 70,
+    "fields": {
+      "name": "Газпромбанк",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 132,
+    "fields": {
+      "company": 70,
+      "title": "Подарок при покупке от 1000 руб",
+      "description": "При покупке на сумму от 1000 рублей — фирменный подарок",
+      "offer_type": "gift",
+      "discount_percent": null,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 2400
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 133,
+    "fields": {
+      "company": 70,
+      "title": "Скидка 5% на первый заказ",
+      "description": "Специальное предложение для новых клиентов — скидка 5%",
+      "offer_type": "discount",
+      "discount_percent": 5,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 600
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 71,
+    "fields": {
+      "name": "Росбанк",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 134,
+    "fields": {
+      "company": 71,
+      "title": "Скидка 25% в день рождения",
+      "description": "Скидка 25% в месяц твоего дня рождения",
+      "offer_type": "discount",
+      "discount_percent": 25,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1000
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 72,
+    "fields": {
+      "name": "Ренессанс Кредит",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 135,
+    "fields": {
+      "company": 72,
+      "title": "Двойной кэшбэк по выходным",
+      "description": "Кэшбэк 5% каждую субботу и воскресенье",
+      "offer_type": "cashback",
+      "discount_percent": 5,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1100
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 73,
+    "fields": {
+      "name": "Совкомбанк",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 136,
+    "fields": {
+      "company": 73,
+      "title": "Скидка 25% в день рождения",
+      "description": "Скидка 25% в месяц твоего дня рождения",
+      "offer_type": "discount",
+      "discount_percent": 25,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1000
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 74,
+    "fields": {
+      "name": "Фитнес Хаус",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 137,
+    "fields": {
+      "company": 74,
+      "title": "Кэшбэк 20% на категорию",
+      "description": "Повышенный кэшбэк 20% на выбранные категории товаров",
+      "offer_type": "cashback",
+      "discount_percent": 20,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1400
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 138,
+    "fields": {
+      "company": 74,
+      "title": "Кэшбэк 15% на категорию",
+      "description": "Повышенный кэшбэк 15% на выбранные категории товаров",
+      "offer_type": "cashback",
+      "discount_percent": 15,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1300
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 75,
+    "fields": {
+      "name": "World Class",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 139,
+    "fields": {
+      "company": 75,
+      "title": "Промокод на 5% скидку",
+      "description": "Введи промокод и получи скидку 5% на весь заказ",
+      "offer_type": "promo",
+      "discount_percent": null,
+      "promo_code": "MTB20",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1600
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 76,
+    "fields": {
+      "name": "Планета Фитнес",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 140,
+    "fields": {
+      "company": 76,
+      "title": "Промокод на 15% скидку",
+      "description": "Введи промокод и получи скидку 15% на весь заказ",
+      "offer_type": "promo",
+      "discount_percent": null,
+      "promo_code": "MTB20",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1800
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 77,
+    "fields": {
+      "name": "Alex Fitness",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 141,
+    "fields": {
+      "company": 77,
+      "title": "Бесплатная доставка",
+      "description": "Бесплатная доставка при оплате картой МТБанк",
+      "offer_type": "gift",
+      "discount_percent": null,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 2600
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 142,
+    "fields": {
+      "company": 77,
+      "title": "Промокод на 20% скидку",
+      "description": "Введи промокод и получи скидку 20% на весь заказ",
+      "offer_type": "promo",
+      "discount_percent": null,
+      "promo_code": "PLAY5",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1900
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 78,
+    "fields": {
+      "name": "СпортЛайф",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 143,
+    "fields": {
+      "company": 78,
+      "title": "Кэшбэк 5% на покупки",
+      "description": "Возврат 5% от суммы каждой покупки на бонусный счёт",
+      "offer_type": "cashback",
+      "discount_percent": 5,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1100
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 144,
+    "fields": {
+      "company": 78,
+      "title": "Скидка 10% по промокоду",
+      "description": "Используй промокод МТБ и сэкономь 10%",
+      "offer_type": "promo",
+      "discount_percent": null,
+      "promo_code": "MTB15",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1700
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 145,
+    "fields": {
+      "company": 78,
+      "title": "Бесплатная доставка",
+      "description": "Бесплатная доставка при оплате картой МТБанк",
+      "offer_type": "gift",
+      "discount_percent": null,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 2500
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 79,
+    "fields": {
+      "name": "Детский мир",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 146,
+    "fields": {
+      "company": 79,
+      "title": "Бесплатная доставка",
+      "description": "Бесплатная доставка при оплате картой МТБанк",
+      "offer_type": "gift",
+      "discount_percent": null,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 2100
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 147,
+    "fields": {
+      "company": 79,
+      "title": "Промокод на 15% скидку",
+      "description": "Введи промокод и получи скидку 15% на весь заказ",
+      "offer_type": "promo",
+      "discount_percent": null,
+      "promo_code": "BANK5",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1800
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 80,
+    "fields": {
+      "name": "Кораблик",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 148,
+    "fields": {
+      "company": 80,
+      "title": "Кэшбэк 15% на категорию",
+      "description": "Повышенный кэшбэк 15% на выбранные категории товаров",
+      "offer_type": "cashback",
+      "discount_percent": 15,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1300
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 149,
+    "fields": {
+      "company": 80,
+      "title": "Промокод на 20% скидку",
+      "description": "Введи промокод и получи скидку 20% на весь заказ",
+      "offer_type": "promo",
+      "discount_percent": null,
+      "promo_code": "GAME10",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1900
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 150,
+    "fields": {
+      "company": 80,
+      "title": "Скидка 20% на первый заказ",
+      "description": "Специальное предложение для новых клиентов — скидка 20%",
+      "offer_type": "discount",
+      "discount_percent": 20,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 900
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 81,
+    "fields": {
+      "name": "Mothercare",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 151,
+    "fields": {
+      "company": 81,
+      "title": "Подарок при покупке от 1000 руб",
+      "description": "При покупке на сумму от 1000 рублей — фирменный подарок",
+      "offer_type": "gift",
+      "discount_percent": null,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 2600
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 82,
+    "fields": {
+      "name": "Дочки-сыночки",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 152,
+    "fields": {
+      "company": 82,
+      "title": "Бесплатная доставка",
+      "description": "Бесплатная доставка при оплате картой МТБанк",
+      "offer_type": "gift",
+      "discount_percent": null,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 2200
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 153,
+    "fields": {
+      "company": 82,
+      "title": "Скидка 5% в день рождения",
+      "description": "Скидка 5% в месяц твоего дня рождения",
+      "offer_type": "discount",
+      "discount_percent": 5,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 600
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 83,
+    "fields": {
+      "name": "Chicco",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 154,
+    "fields": {
+      "company": 83,
+      "title": "Промокод на 15% скидку",
+      "description": "Введи промокод и получи скидку 15% на весь заказ",
+      "offer_type": "promo",
+      "discount_percent": null,
+      "promo_code": "TOP20",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1800
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 84,
+    "fields": {
+      "name": "Четыре лапы",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 155,
+    "fields": {
+      "company": 84,
+      "title": "Бесплатная доставка",
+      "description": "Бесплатная доставка при оплате картой МТБанк",
+      "offer_type": "gift",
+      "discount_percent": null,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 2100
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 85,
+    "fields": {
+      "name": "Petshop",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 156,
+    "fields": {
+      "company": 85,
+      "title": "Кэшбэк 25% на категорию",
+      "description": "Повышенный кэшбэк 25% на выбранные категории товаров",
+      "offer_type": "cashback",
+      "discount_percent": 25,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1500
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 86,
+    "fields": {
+      "name": "Бетховен",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 157,
+    "fields": {
+      "company": 86,
+      "title": "Скидка 10% на первый заказ",
+      "description": "Специальное предложение для новых клиентов — скидка 10%",
+      "offer_type": "discount",
+      "discount_percent": 10,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 700
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 87,
+    "fields": {
+      "name": "220 Вольт",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 158,
+    "fields": {
+      "company": 87,
+      "title": "Скидка 30% на первый заказ",
+      "description": "Специальное предложение для новых клиентов — скидка 30%",
+      "offer_type": "discount",
+      "discount_percent": 30,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1100
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 159,
+    "fields": {
+      "company": 87,
+      "title": "Скидка 5% по промокоду",
+      "description": "Используй промокод МТБ и сэкономь 5%",
+      "offer_type": "promo",
+      "discount_percent": null,
+      "promo_code": "MTB15",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1600
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 160,
+    "fields": {
+      "company": 87,
+      "title": "Кэшбэк 30% на категорию",
+      "description": "Повышенный кэшбэк 30% на выбранные категории товаров",
+      "offer_type": "cashback",
+      "discount_percent": 30,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1600
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 88,
+    "fields": {
+      "name": "Петрович",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 161,
+    "fields": {
+      "company": 88,
+      "title": "Двойной кэшбэк по выходным",
+      "description": "Кэшбэк 10% каждую субботу и воскресенье",
+      "offer_type": "cashback",
+      "discount_percent": 10,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1200
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 162,
+    "fields": {
+      "company": 88,
+      "title": "Скидка 15% в день рождения",
+      "description": "Скидка 15% в месяц твоего дня рождения",
+      "offer_type": "discount",
+      "discount_percent": 15,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 800
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 163,
+    "fields": {
+      "company": 88,
+      "title": "Скидка 30% на все товары",
+      "description": "Получи скидку 30% при оплате картой МТБанк",
+      "offer_type": "discount",
+      "discount_percent": 30,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1100
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 89,
+    "fields": {
+      "name": "Максидом",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 164,
+    "fields": {
+      "company": 89,
+      "title": "Двойной кэшбэк по выходным",
+      "description": "Кэшбэк 10% каждую субботу и воскресенье",
+      "offer_type": "cashback",
+      "discount_percent": 10,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1200
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 90,
+    "fields": {
+      "name": "Fix Price",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 165,
+    "fields": {
+      "company": 90,
+      "title": "Двойной кэшбэк по выходным",
+      "description": "Кэшбэк 25% каждую субботу и воскресенье",
+      "offer_type": "cashback",
+      "discount_percent": 25,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1500
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 166,
+    "fields": {
+      "company": 90,
+      "title": "Кэшбэк 20% на категорию",
+      "description": "Повышенный кэшбэк 20% на выбранные категории товаров",
+      "offer_type": "cashback",
+      "discount_percent": 20,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1400
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 91,
+    "fields": {
+      "name": "Familia",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 167,
+    "fields": {
+      "company": 91,
+      "title": "Подарок при покупке от 1000 руб",
+      "description": "При покупке на сумму от 1000 рублей — фирменный подарок",
+      "offer_type": "gift",
+      "discount_percent": null,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 2100
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 168,
+    "fields": {
+      "company": 91,
+      "title": "Кэшбэк 25% на категорию",
+      "description": "Повышенный кэшбэк 25% на выбранные категории товаров",
+      "offer_type": "cashback",
+      "discount_percent": 25,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1500
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 169,
+    "fields": {
+      "company": 91,
+      "title": "Бесплатная доставка",
+      "description": "Бесплатная доставка при оплате картой МТБанк",
+      "offer_type": "gift",
+      "discount_percent": null,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 2200
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 92,
+    "fields": {
+      "name": "Sunlight",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 170,
+    "fields": {
+      "company": 92,
+      "title": "Бесплатная доставка",
+      "description": "Бесплатная доставка при оплате картой МТБанк",
+      "offer_type": "gift",
+      "discount_percent": null,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 2500
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 171,
+    "fields": {
+      "company": 92,
+      "title": "Двойной кэшбэк по выходным",
+      "description": "Кэшбэк 10% каждую субботу и воскресенье",
+      "offer_type": "cashback",
+      "discount_percent": 10,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1200
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 172,
+    "fields": {
+      "company": 92,
+      "title": "Подарок при покупке от 1000 руб",
+      "description": "При покупке на сумму от 1000 рублей — фирменный подарок",
+      "offer_type": "gift",
+      "discount_percent": null,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 2100
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 93,
+    "fields": {
+      "name": "585 Золотой",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 173,
+    "fields": {
+      "company": 93,
+      "title": "Скидка 20% по промокоду",
+      "description": "Используй промокод МТБ и сэкономь 20%",
+      "offer_type": "promo",
+      "discount_percent": null,
+      "promo_code": "BONUS25",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1900
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 94,
+    "fields": {
+      "name": "Sokolov",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 174,
+    "fields": {
+      "company": 94,
+      "title": "Скидка 25% в день рождения",
+      "description": "Скидка 25% в месяц твоего дня рождения",
+      "offer_type": "discount",
+      "discount_percent": 25,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1000
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 175,
+    "fields": {
+      "company": 94,
+      "title": "Двойной кэшбэк по выходным",
+      "description": "Кэшбэк 10% каждую субботу и воскресенье",
+      "offer_type": "cashback",
+      "discount_percent": 10,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1200
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 95,
+    "fields": {
+      "name": "Askona",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 176,
+    "fields": {
+      "company": 95,
+      "title": "Промокод на 5% скидку",
+      "description": "Введи промокод и получи скидку 5% на весь заказ",
+      "offer_type": "promo",
+      "discount_percent": null,
+      "promo_code": "TOP20",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1600
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 177,
+    "fields": {
+      "company": 95,
+      "title": "Скидка 15% в день рождения",
+      "description": "Скидка 15% в месяц твоего дня рождения",
+      "offer_type": "discount",
+      "discount_percent": 15,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 800
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 96,
+    "fields": {
+      "name": "Много мебели",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 178,
+    "fields": {
+      "company": 96,
+      "title": "Скидка 15% в день рождения",
+      "description": "Скидка 15% в месяц твоего дня рождения",
+      "offer_type": "discount",
+      "discount_percent": 15,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 800
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 97,
+    "fields": {
+      "name": "Ситилинк",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 179,
+    "fields": {
+      "company": 97,
+      "title": "Двойной кэшбэк по выходным",
+      "description": "Кэшбэк 15% каждую субботу и воскресенье",
+      "offer_type": "cashback",
+      "discount_percent": 15,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1300
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 180,
+    "fields": {
+      "company": 97,
+      "title": "Бесплатная доставка",
+      "description": "Бесплатная доставка при оплате картой МТБанк",
+      "offer_type": "gift",
+      "discount_percent": null,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 2300
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 181,
+    "fields": {
+      "company": 97,
+      "title": "Скидка 20% по промокоду",
+      "description": "Используй промокод МТБ и сэкономь 20%",
+      "offer_type": "promo",
+      "discount_percent": null,
+      "promo_code": "GAME10",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1900
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 98,
+    "fields": {
+      "name": "Технопарк",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 182,
+    "fields": {
+      "company": 98,
+      "title": "Скидка 30% по промокоду",
+      "description": "Используй промокод МТБ и сэкономь 30%",
+      "offer_type": "promo",
+      "discount_percent": null,
+      "promo_code": "BANK5",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 2100
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 183,
+    "fields": {
+      "company": 98,
+      "title": "Промокод на 20% скидку",
+      "description": "Введи промокод и получи скидку 20% на весь заказ",
+      "offer_type": "promo",
+      "discount_percent": null,
+      "promo_code": "WIN15",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1900
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 184,
+    "fields": {
+      "company": 98,
+      "title": "Скидка 15% в день рождения",
+      "description": "Скидка 15% в месяц твоего дня рождения",
+      "offer_type": "discount",
+      "discount_percent": 15,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 800
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 99,
+    "fields": {
+      "name": "Связной",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 185,
+    "fields": {
+      "company": 99,
+      "title": "Скидка 15% на все товары",
+      "description": "Получи скидку 15% при оплате картой МТБанк",
+      "offer_type": "discount",
+      "discount_percent": 15,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 800
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 186,
+    "fields": {
+      "company": 99,
+      "title": "Промокод на 30% скидку",
+      "description": "Введи промокод и получи скидку 30% на весь заказ",
+      "offer_type": "promo",
+      "discount_percent": null,
+      "promo_code": "GAME10",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 2100
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 100,
+    "fields": {
+      "name": "Евросеть",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 187,
+    "fields": {
+      "company": 100,
+      "title": "Бесплатная доставка",
+      "description": "Бесплатная доставка при оплате картой МТБанк",
+      "offer_type": "gift",
+      "discount_percent": null,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 2200
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 101,
+    "fields": {
+      "name": "Билайн",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 188,
+    "fields": {
+      "company": 101,
+      "title": "Подарок при покупке от 1000 руб",
+      "description": "При покупке на сумму от 1000 рублей — фирменный подарок",
+      "offer_type": "gift",
+      "discount_percent": null,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 2200
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 189,
+    "fields": {
+      "company": 101,
+      "title": "Бесплатная доставка",
+      "description": "Бесплатная доставка при оплате картой МТБанк",
+      "offer_type": "gift",
+      "discount_percent": null,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 2600
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 190,
+    "fields": {
+      "company": 101,
+      "title": "Кэшбэк 20% на категорию",
+      "description": "Повышенный кэшбэк 20% на выбранные категории товаров",
+      "offer_type": "cashback",
+      "discount_percent": 20,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1400
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 102,
+    "fields": {
+      "name": "МТС",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 191,
+    "fields": {
+      "company": 102,
+      "title": "Кэшбэк 10% на покупки",
+      "description": "Возврат 10% от суммы каждой покупки на бонусный счёт",
+      "offer_type": "cashback",
+      "discount_percent": 10,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1200
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 192,
+    "fields": {
+      "company": 102,
+      "title": "Кэшбэк 30% на категорию",
+      "description": "Повышенный кэшбэк 30% на выбранные категории товаров",
+      "offer_type": "cashback",
+      "discount_percent": 30,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1600
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 193,
+    "fields": {
+      "company": 102,
+      "title": "Скидка 10% в день рождения",
+      "description": "Скидка 10% в месяц твоего дня рождения",
+      "offer_type": "discount",
+      "discount_percent": 10,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 700
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 103,
+    "fields": {
+      "name": "МегаФон",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 194,
+    "fields": {
+      "company": 103,
+      "title": "Скидка 20% на первый заказ",
+      "description": "Специальное предложение для новых клиентов — скидка 20%",
+      "offer_type": "discount",
+      "discount_percent": 20,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 900
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 195,
+    "fields": {
+      "company": 103,
+      "title": "Бесплатная доставка",
+      "description": "Бесплатная доставка при оплате картой МТБанк",
+      "offer_type": "gift",
+      "discount_percent": null,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 2400
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 104,
+    "fields": {
+      "name": "Tele2",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 196,
+    "fields": {
+      "company": 104,
+      "title": "Скидка 10% в день рождения",
+      "description": "Скидка 10% в месяц твоего дня рождения",
+      "offer_type": "discount",
+      "discount_percent": 10,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 700
+    }
+  },
+  {
+    "model": "liderbord.company",
+    "pk": 105,
+    "fields": {
+      "name": "Яндекс Плюс",
+      "logo": null,
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 197,
+    "fields": {
+      "company": 105,
+      "title": "Кэшбэк 30% на категорию",
+      "description": "Повышенный кэшбэк 30% на выбранные категории товаров",
+      "offer_type": "cashback",
+      "discount_percent": 30,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 1600
+    }
+  },
+  {
+    "model": "liderbord.offer",
+    "pk": 198,
+    "fields": {
+      "company": 105,
+      "title": "Подарок при покупке от 1000 руб",
+      "description": "При покупке на сумму от 1000 рублей — фирменный подарок",
+      "offer_type": "gift",
+      "discount_percent": null,
+      "promo_code": "",
+      "is_active": true,
+      "starts_at": null,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00Z",
+      "distance": 2300
+    }
+  }
+]

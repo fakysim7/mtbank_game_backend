@@ -16,6 +16,7 @@ class OfferSerializer(serializers.ModelSerializer):
             "company_name",
             "description",
             "offer_type",
+            "distance",
             "discount_percent",
             "promo_code",
             "is_active",

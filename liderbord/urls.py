@@ -1,0 +1,13 @@
+from django.urls import path, include
+from rest_framework.routers import DefaultRouter
+from .views import CompanyViewSet, OfferViewSet, LeaderboardViewSet, SubmitScoreView
+
+router = DefaultRouter()
+router.register("companies",   CompanyViewSet,     basename="company")
+router.register("offers",      OfferViewSet,       basename="offer")
+router.register("leaderboard", LeaderboardViewSet, basename="leaderboard")
+
+urlpatterns = [
+    path("api/", include(router.urls)),
+    path("api/leaderboard/submit/", SubmitScoreView.as_view(), name="submit-score"),
+]

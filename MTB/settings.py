@@ -114,8 +114,8 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
 
-CORS_ALLOW_ALL_ORIGINS = True
-CORS_ALLOW_ALL_ORIGINS = False
+
+CORS_ALLOW_CREDENTIALS = True
 CORS_ALLOWED_ORIGINS = [
     "https://slot-jump-rewards-j6tv.vercel.app",
 ]

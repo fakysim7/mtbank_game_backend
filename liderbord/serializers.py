@@ -6,6 +6,8 @@ User = get_user_model()
 
 
 class OfferSerializer(serializers.ModelSerializer):
+    company_name = serializers.CharField(source="company.name", read_only=True)
+
     class Meta:
         model = Offer
         fields = [

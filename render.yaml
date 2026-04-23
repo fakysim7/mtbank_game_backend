@@ -3,7 +3,7 @@ services:
     name: MTB
     runtime: python
     buildCommand: "pip install -r requirements.txt && python manage.py migrate && python manage.py collectstatic --noinput"
-    startCommand: "gunicorn MTB.wsgi:application --bind 0.0.0.0:$PORT"
+    startCommand: "gunicorn MTB.wsgi:application --bind 0.0.0.0:10000"
     envVars:
       - key: SECRET_KEY
         generateValue: true
